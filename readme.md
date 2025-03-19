@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     class Generator {
         - string title
@@ -29,3 +30,4 @@ classDiagram
     main --> Generator : 调用 from_yaml() 读取 YAML
     main --> yaml : 解析 YAML 文件
     Generator --> yaml : 读取并解析 YAML 数据
+```
